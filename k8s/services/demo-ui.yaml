@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
       - name: demo-ui
-        image: 331867785866.dkr.ecr.us-east-1.amazonaws.com/intern-project/demo-ui:4
+        image: 331867785866.dkr.ecr.us-east-1.amazonaws.com/intern-project/demo-ui:6
         imagePullPolicy: Always
         ports:
         - containerPort: 80
