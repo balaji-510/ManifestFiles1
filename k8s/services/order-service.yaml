@@ -22,7 +22,7 @@ spec:
     spec:
       containers:
       - name: order-service
-        image: :4
+        image: 331867785866.dkr.ecr.us-east-1.amazonaws.com/intern-project/order-service:4
         imagePullPolicy: Always
         ports:
         - containerPort: 8080
