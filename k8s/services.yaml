@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: order-service
-        image: 331867785866.dkr.ecr.us-east-1.amazonaws.com/intern-project/demo-ui:13
+        image: 331867785866.dkr.ecr.us-east-1.amazonaws.com/intern-project/order-service:13
         imagePullPolicy: Always
         ports:
         - containerPort: 8080
@@ -169,7 +169,7 @@ spec:
     spec:
       containers:
       - name: demo-ui
-        image: 331867785866.dkr.ecr.us-east-1.amazonaws.com/intern-project/order-service:13
+        image: 331867785866.dkr.ecr.us-east-1.amazonaws.com/intern-project/demo-ui:13
         imagePullPolicy: Always
         ports:
         - containerPort: 80
